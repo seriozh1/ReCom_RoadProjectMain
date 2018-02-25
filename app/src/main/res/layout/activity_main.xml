@@ -7,23 +7,20 @@
     android:background="@drawable/main_background_road_1"
     tools:context="com.s.samsungitschool.roadprojectmain.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal|center"
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btOpenMap"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:hint="@string/open_map"
-            android:textSize="25sp"
-            android:textColor="#EFD401"/>
+            android:textColor="#EFD401"
+            android:textSize="25sp" />
     </LinearLayout>
 
 

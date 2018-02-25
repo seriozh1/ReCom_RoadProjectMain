@@ -6,4 +6,6 @@
     <string name="sign_up">Sign Up</string>
     <string name="title_activity_maps_main">Map</string>
     <string name="open_map">Open Map</string>
+    <string name="test">Test</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
