@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login_in_background_road_1"
+    android:background="@drawable/registration_background_road_1"
     android:gravity="center_horizontal|center"
     android:orientation="vertical"
     tools:context="com.s.samsungitschool.roadprojectmain.RegistrationActivity">
