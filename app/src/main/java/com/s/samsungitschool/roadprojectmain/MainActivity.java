@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // TODO Интент не работает
-                //Intent intentMapsActivity = new Intent(getBaseContext(), MapsActivity.class);
-                //startActivity(intentMapsActivity);
+                Intent intentMapsActivity = new Intent(getBaseContext(), MapsActivity.class);
+                startActivity(intentMapsActivity);
 
             }
         });
