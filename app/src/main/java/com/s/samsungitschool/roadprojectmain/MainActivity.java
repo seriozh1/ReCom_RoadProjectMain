@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         btOpenMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // TODO Интент не работает
                 Intent intentMapsActivity = new Intent(getBaseContext(), MapsActivity.class);
                 startActivity(intentMapsActivity);
 
