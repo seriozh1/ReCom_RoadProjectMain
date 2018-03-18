@@ -10,7 +10,7 @@ import android.widget.EditText;
 public class EntryActivity extends AppCompatActivity {
 
     EditText loginEt, passwordEt;
-    Button loginIn, register;
+    Button loginIn, goToRegister;
 
     private static String login = "";
     private static String password = "";
@@ -26,7 +26,7 @@ public class EntryActivity extends AppCompatActivity {
         loginEt = (EditText) findViewById(R.id.login_et);
         passwordEt = (EditText) findViewById(R.id.password_et);
         loginIn = (Button) findViewById(R.id.login_in_bt);
-        register = (Button) findViewById(R.id.register_bt);
+        goToRegister = (Button) findViewById(R.id.register_bt);
 
         loginIn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,7 +36,7 @@ public class EntryActivity extends AppCompatActivity {
             }
         });
 
-        register.setOnClickListener(new View.OnClickListener() {
+        goToRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getBaseContext(), RegistrationActivity.class);

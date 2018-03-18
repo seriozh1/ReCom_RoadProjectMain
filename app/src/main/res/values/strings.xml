@@ -12,4 +12,8 @@
     <string name="send_a_complaint">Отправить жалобу</string>
     <string name="settings">Настройки</string>
     <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="registration">Регистрация</string>
+    <string name="Enter">Вход</string>
+    <string name="Registration">Регистрация</string>
+    <string name="email">Почта</string>
 </resources>
