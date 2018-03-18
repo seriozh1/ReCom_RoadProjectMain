@@ -1,55 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/registration_background_road_1"
-    android:gravity="center_horizontal|center"
-    android:orientation="vertical"
     tools:context="com.s.samsungitschool.roadprojectmain.RegistrationActivity">
 
-    <EditText
-        android:id="@+id/etLogin"
-        android:layout_width="200dp"
-        android:layout_height="45dp"
-        android:layout_marginBottom="15dp"
-        android:hint="@string/login"
-        android:textColor="@android:color/background_dark"
-        android:textStyle="bold"/>
 
-    <EditText
-        android:id="@+id/etPassword"
-        android:layout_width="200dp"
-        android:layout_height="45dp"
-        android:layout_marginBottom="15dp"
-        android:hint="@string/password"
-        android:inputType="textPassword"
-        android:textColor="@android:color/background_dark"
-        android:textStyle="bold"/>
-
-    <Button
-        android:id="@+id/btLoginIn"
-        style="@style/Base.Widget.AppCompat.Button.Colored"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="15dp"
-        android:background="@color/colorAccent"
-        android:text="@string/login_in"
-        android:textSize="17sp"
-        android:textColor="#EFD401"
-        android:textStyle="italic"/>
-
-    <Button
-        android:id="@+id/btSignUp"
-        style="@style/Base.Widget.AppCompat.Button.Colored"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
-        android:text="@string/sign_up"
-        android:textSize="17sp"
-        android:textColor="#EFD401"
-        android:textStyle="italic"/>
 
 </LinearLayout>

@@ -15,13 +15,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Запуск активности со входом/регистрацией
-        Intent registrationActivityIntent = new Intent(this, RegistrationActivity.class);
-        startActivity(registrationActivityIntent);
+        Intent entryActivityIntent = new Intent(this, EntryActivity.class);
+        startActivity(entryActivityIntent);
 
         // Работа с главной активностью
         btOpenMap = (Button) findViewById(R.id.bt_open_map);
 
-        /*Intent registrationActivityIntent = new Intent(this, RegistrationActivity.class);
+        /*Intent registrationActivityIntent = new Intent(this, EntryActivity.class);
         startActivity(registrationActivityIntent);*/
         btOpenMap.setOnClickListener(new View.OnClickListener() {
             @Override

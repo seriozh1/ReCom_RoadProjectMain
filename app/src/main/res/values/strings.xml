@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">RoadProjectMain</string>
-    <string name="login">Login</string>
-    <string name="password">Password</string>
-    <string name="login_in">Login in</string>
-    <string name="sign_up">Sign Up</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="login_in">Войти</string>
+    <string name="sign_up">Зарегестрироваться</string>
     <string name="title_activity_maps_main">Map</string>
     <string name="open_map">Open Map</string>
     <string name="test">Test</string>
@@ -11,4 +11,5 @@
     <string name="road_quality_checker">Road Quality Checker</string>
     <string name="send_a_complaint">Отправить жалобу</string>
     <string name="settings">Настройки</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
 </resources>
