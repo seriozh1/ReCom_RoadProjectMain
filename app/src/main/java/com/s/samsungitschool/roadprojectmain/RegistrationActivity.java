@@ -62,6 +62,8 @@ public class RegistrationActivity extends AppCompatActivity {
 
             //Работа с сервером
 
+
+
             return null;
         }
 
