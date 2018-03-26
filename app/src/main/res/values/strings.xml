@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">RoadProjectMain</string>
+    <string name="app_name">ReCom</string>
     <string name="login">Логин</string>
     <string name="password">Пароль</string>
     <string name="login_in">Войти</string>
-    <string name="sign_up">Зарегестрироваться</string>
+    <string name="sign_up">Зарегистрироваться</string>
     <string name="title_activity_maps_main">Map</string>
     <string name="open_map">Open Map</string>
     <string name="test">Test</string>
